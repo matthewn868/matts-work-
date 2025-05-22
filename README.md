@@ -1,0 +1,1 @@
+This project consist of layoffs aroud the world from various companies. I have identified dulpicates and deleted them, idenified missing industry data and updated it and finally i have deleted any unecessary rows and columns. 
