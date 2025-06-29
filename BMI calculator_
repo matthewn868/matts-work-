@@ -1,0 +1,494 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "53636677-2222-405f-83bd-a0354cc161a7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter your name:  matthew\n",
+      "enter your weight in pounds:  158\n",
+      "enter your height in inches:  67\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "24.74359545555803\n",
+      "matthew, you are normal weight. keep up the good work. \n"
+     ]
+    }
+   ],
+   "source": [
+    "name = input(\"enter your name: \")\n",
+    "\n",
+    "weight = int(input(\"enter your weight in pounds: \"))\n",
+    "\n",
+    "height = int(input(\"enter your height in inches: \"))\n",
+    "\n",
+    "BMI = (weight * 703) / (height * height)\n",
+    "\n",
+    "print(BMI)\n",
+    "\n",
+    "if BMI>0:\n",
+    "    if(BMI<18.5):\n",
+    "        print(name +\", you are underweight.\")\n",
+    "    elif (BMI<=24.9):\n",
+    "        print(name +\", you are normal weight. keep up the good work. \")\n",
+    "    elif (BMI<29.9):\n",
+    "        print(name +\", you are overweight.\")\n",
+    "    elif (BMI<34.9):\n",
+    "        print(name +\", you are obease.\")\n",
+    "    elif (BMI<39.9):\n",
+    "        print(name +\", you are severely obease.\")\n",
+    "    else:\n",
+    "        print(name +\", you are mordbidly obease\")\n",
+    "else:\n",
+    "    print(\"enter valid input\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "409e6ffb-7696-4e7d-b327-25801d962468",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2a5d799a-7890-4cac-ade4-12ee185f20d9",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "94a497bc-6d9c-4df3-8c00-b9e8a0cb57be",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#BMI = (weight in pounds x 703) / (height in inches x height in inches)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "868e03d1-ecc1-475d-9b4d-f9ff49cc2dc9",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Under 18.5 -> underweight -> minimal\n",
+    "18.5 - 24.9 -> normal weight -> minimal\n",
+    "25 - 29.9 -> overweight -> increased\n",
+    "30 - 34.9 -> obease -> high\n",
+    "35 - 39.9 -> severely obease -> very high \n",
+    "40 and over -> morbidly obease -> extremely high"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "905f0a77-8f9c-44d7-ac0c-1776342e7294",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "matthew, you are normal weight.\n"
+     ]
+    }
+   ],
+   "source": [
+    "if BMI>0:\n",
+    "    if(BMI<18.5):\n",
+    "        print(name +\", you are underweight.\")\n",
+    "    elif (BMI<=24.9):\n",
+    "        print(name +\", you are normal weight.\")\n",
+    "    elif (BMI<29.9):\n",
+    "        print(name +\", you are overweight.\")\n",
+    "    elif (BMI<34.9):\n",
+    "        print(name +\", you are obease.\")\n",
+    "    elif (BMI<39.9):\n",
+    "        print(name +\", you are severely obease.\")\n",
+    "    else:\n",
+    "        print(name +\", you are mordbidly obease\")\n",
+    "else:\n",
+    "    print(\"enter valid input\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "854705ec-821a-4f43-a576-1c43f016f649",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0ad9e009-d5be-47ab-a6c6-54d313b933ed",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4668d390-722b-4fb8-a47d-92732cf6a05d",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "61ac09e2-f88b-4b47-b78c-9e17d5033024",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4c200e45-06d8-456f-bde3-4a2d25a7f3fb",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "31cab3cb-579f-4a63-b7bd-9eebf8dcedad",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8ebcac4a-f018-499f-b0bf-b92a66c26d65",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "cc6d4afd-5e5b-4dca-b9bf-62bf94a7caa5",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f17d1afd-607b-442b-98bc-5e54e04ed804",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8d6fe520-39fd-47d0-aa99-c15dc2fd3128",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b6ebca0f-a2c0-4707-9c2d-161e0428f80d",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c1c73e10-c89e-4417-92d5-c7a276fd28f1",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4995fa66-e8b6-45b7-9c8c-94f3a3eaddc2",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3299aa2a-ef74-485a-b0c4-020ac1ff2671",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "67d81430-17cf-4cc8-a8da-43cbd519ded8",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a7539cef-5898-4bbd-804e-a09db19ea3a3",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ced36893-d23f-4ce2-b740-3ab823206900",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2cd76b38-342f-4d7c-aaad-12323462d7ca",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6c64bae8-cfdc-40c4-8ecd-f7bf32242d40",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d944a47e-38b2-4f18-8da3-815fdb77d689",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e2a512ca-d2b7-4340-8390-61ff9c51f3ec",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3aa4b207-051f-4485-b592-a4db4b2177c7",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "598bc432-c2ab-4627-b1e6-f9555dbc092a",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b6fabbf3-1c78-44d6-ae71-d9cdde8e895e",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b1e25059-9cdb-401d-83c8-9c0a076548a8",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6db3f531-8b61-40a2-8651-3ad31237294c",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3c720c0c-f230-445d-b0f9-6a52966cb038",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1fcc3e96-f301-483a-b906-e630a551fcde",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5a56240c-3120-4891-8cb0-7bd2432e382f",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c017910b-ce3f-48ed-85aa-398e0007d296",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "bb3cb875-6bb5-49f0-a97a-12d3d0c4b0b7",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ef99ec08-4b30-4bde-8ce4-b1ff3419ba25",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a3fb7480-928c-49f0-b572-f25348a29a0e",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c17f4457-7c5f-43e1-9f7f-dfdca83e0bfb",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9488accd-5e35-4825-b2f5-2aa339dabb7b",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7f73846c-13a1-4959-8926-1a6a24100c38",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "72e82680-5202-466b-bf8d-99d70bcf0f6e",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "89c0ba5a-8173-48a3-863d-2923f6155d94",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "36099faa-b1f5-432a-adef-106a5f16ed08",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a231144e-04ac-4f90-bfa5-5dd7966d2e8a",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "92e1b18a-a003-4100-9247-09aa76a49e61",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9f122493-0beb-46d6-a8c5-1b51529f5e9d",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c8141d2a-3b65-4854-8326-1b241fb1ced0",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
